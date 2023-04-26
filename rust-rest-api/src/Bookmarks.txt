@@ -1,0 +1,15 @@
+Lab1: -------------------------------------------------------
+
+https://www.ibm.com/topics/rest-apis#:~:text=the%20next%20step-,What%20is%20a%20REST%20API%3F,representational%20state%20transfer%20architectural%20style.
+
+https://codevoweb.com/build-a-simple-api-with-rust-and-rocket/?utm_content=cmp-true
+
+https://doc.rust-lang.org/std/sync/struct.Arc.html
+
+Lab2: -------------------------------------------------------
+
+https://kotiri.com/2018/01/31/postgresql-diesel-rust-types.html
+
+https://stackoverflow.com/questions/45282970/does-rust-have-an-equivalent-to-pythons-list-comprehension-syntax
+
+https://www.youtube.com/watch?v=tRC4EIKhMzw

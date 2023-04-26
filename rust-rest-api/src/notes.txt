@@ -1,0 +1,189 @@
+UML:
+controller,service, repo, entities
+
+http://localhost:8000/api/todos
+
+cargo watch -q -c -w src/ -x run
+
+{
+    "title": "title1",
+    "content": "content1"
+}
+
+{
+    "title": "title1new",
+    "completed": true
+}
+
+{
+    "name" : "aaaa",
+    "email" : "bbb@bbb.com",
+    "password" : "ccc"
+}
+
+{
+    "tid": ,
+    "tlid":
+}
+================ TODOS =======================
+{
+"title": "Buy groceries",
+"content": "Get milk, bread, eggs, cheese, and vegetables from the supermarket"
+}
+
+{
+"title": "Clean the bathroom",
+"content": "Scrub the toilet, sink, and shower. Sweep and mop the floor"
+}
+
+{
+"title": "Go for a run",
+"content": "Jog for 30 minutes around the park. Stretch before and after"
+}
+
+{
+"title": "Call mom",
+"content": "Ask her how she's doing and tell her about your week"
+}
+
+{
+"title": "Finish report",
+"content": "Write the conclusion section and proofread the entire document"
+}
+
+{
+"title": "Organize closet",
+"content": "Sort clothes by season, donate or sell items you no longer wear"
+}
+
+{
+"title": "Pay bills",
+"content": "Pay rent, electricity, water, and internet bills before the due date"
+}
+
+{
+"title": "Read book",
+"content": "Read two chapters of 'The Great Gatsby' before going to bed"
+}
+
+{
+"title": "Cook dinner",
+"content": "Make chicken stir-fry with rice and vegetables. Follow recipe instructions"
+}
+
+{
+"title": "Study for exam",
+"content": "Review notes, do practice questions, and memorize key concepts for biology exam"
+}
+========================= ACCOUNTS =========================
+{
+{
+"name" : "Alice Smith",
+"email" : "alice.smith@gmail.com",
+"password" : "P@ssw0rd!"
+}
+
+{
+"name" : "Bob Johnson",
+"email" : "bob.johnson@yahoo.com",
+"password" : "MyP@ssw0rd!"
+}
+
+{
+"name" : "Sara Lee",
+"email" : "sara.lee@hotmail.com",
+"password" : "CakeIsYummy"
+}
+
+{
+"name" : "Alex Lee",
+"email" : "alex.lee@gmail.com",
+"password" : "IloveM@ths"
+}
+
+{
+"name" : "David Chen",
+"email" : "david.chen@gmail.com",
+"password" : "qwerty123"
+}
+
+{
+"name" : "Emily Davis",
+"email" : "emily.davis@yahoo.com",
+"password" : "MyDogIsCute!"
+}
+
+{
+"name" : "Grace Wang",
+"email" : "grace.wang@hotmail.com",
+"password" : "Summer2022"
+}
+
+{
+"name" : "Jack Brown",
+"email" : "jack.brown@gmail.com",
+"password" : "Football10"
+}
+
+{
+"name" : "Lily Jones",
+"email" : "lily.jones@yahoo.com",
+"password" : "Sunflowers123"
+}
+
+{
+"name" : "Michael Lee",
+"email" : "michael.lee@hotmail.com",
+"password" : "BeyonceFan1"
+}
+
+========================== TODOLISTS =========================
+{
+"title": "Work",
+"priority": 9
+}
+
+{
+"title": "Household Chores",
+"priority": 7
+}
+
+{
+"title": "Fitness",
+"priority": 6
+}
+
+{
+"title": "Errands",
+"priority": 5
+}
+
+{
+"title": "Family",
+"priority": 8
+}
+
+{
+"title": "Self-Improvement",
+"priority": 7
+}
+
+{
+"title": "Social Life",
+"priority": 6
+}
+
+{
+"title": "Finances",
+"priority": 8
+}
+
+{
+"title": "Travel",
+"priority": 5
+}
+
+{
+"title": "Volunteering",
+"priority": 7
+}

@@ -1,0 +1,14 @@
+digraph ast {
+    "Todo"[label="{Todo|pub tid: String\lpub title: String\lpub content: String\lpub completed: bool\lpub created_at: NaiveDateTime\lpub updated_at: Option<NaiveDateTime>}"][shape="record"];
+    "InsertableTodo"[label="{InsertableTodo|pub title: String\lpub content: String}"][shape="record"];
+    "InsertableTodolist"[label="{InsertableTodolist|pub title: String\lpub priority: i32}"][shape="record"];
+    "TodoList"[label="{TodoList|pub tlid: String\lpub uid: String\lpub title: String\lpub priority: i32\lpub created_at: NaiveDateTime}"][shape="record"];
+    "TodoTodoList"[label="{TodoTodoList|pub tid: String\lpub tlid: String}"][shape="record"];
+    "User"[label="{User|pub uid: String\lpub name: String\lpub email: String\lpub password: String\lpub created_at: NaiveDateTime}"][shape="record"];
+    "InsertableUser"[label="{InsertableUser|pub name: String\lpub email: String\lpub password: String}"][shape="record"];
+    "UpdateTodoSchema"[label="{UpdateTodoSchema|pub title: Option<String>\lpub content: Option<String>\lpub completed: Option<bool>}"][shape="record"];
+    "UpdateUserSchema"[label="{UpdateUserSchema|pub name: Option<String>\lpub email: Option<String>\lpub password: Option<String>}"][shape="record"];
+    "TodoTodoListWithIncompleteCount"[label="{TodoTodoListWithIncompleteCount|pub todolist_id: String\lpub incomplete_count: i64}"][shape="record"];
+    "AppState"[label="{AppState|pub todos: Arc<Mutex<Vec<Todo>>>|new() -> Self}"][shape="record"];
+    "AppState" -> "Todo"[label=""][arrowhead="diamond"];
+}

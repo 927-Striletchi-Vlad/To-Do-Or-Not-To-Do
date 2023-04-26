@@ -1,0 +1,65 @@
+use crate::model::{Todo, User, TodoList, TodoTodoList, TodoTodoListWithIncompleteCount};
+use serde::{Serialize, Deserialize};
+
+#[derive(Serialize)]
+pub struct GenericResponse {
+    pub status: String,
+    pub message: String,
+}
+
+#[derive(Serialize, Debug)]
+pub struct SingleTodoResponse {
+    pub status: String,
+    pub data: Todo,
+}
+
+#[derive (Serialize, Debug)]
+pub struct SingleUserResponse {
+    pub status: String,
+    pub data: User,
+}
+
+
+#[derive (Serialize, Debug)]
+pub struct SingleTodoListResponse {
+    pub status: String,
+    pub data: TodoList,
+}
+
+#[derive(Serialize, Debug)]
+pub struct TodoListResponse {
+    pub status: String,
+    pub data: Vec<String>,
+}
+
+#[derive(Serialize, Debug)]
+pub struct TodoListListResponse {
+    pub status: String,
+    pub data: Vec<String>,
+}
+
+#[derive(Serialize, Debug)]
+pub struct UserListResponse {
+    pub status: String,
+    pub data: Vec<String>,
+}
+
+#[derive(Serialize, Debug)]
+pub struct SingleTodoTodoListResponse {
+    pub status: String,
+    pub data: TodoTodoList, 
+}
+
+#[derive(Serialize, Debug)]
+pub struct TodoTodoListListResponse {
+    pub status: String,
+    pub data: Vec<TodoTodoList>,
+}
+
+#[derive(Serialize, Debug, Deserialize)]
+pub struct TodoTodoListListWithIncompleteCountResponse {
+    pub status: String,
+    pub data: Vec<TodoTodoListWithIncompleteCount>,
+}
+
+
